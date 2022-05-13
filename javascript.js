@@ -44,6 +44,8 @@ const resetButton = document.querySelector("#reset");
 resetButton.addEventListener("click", () => {
   removeGrid();
   createGrid(16);
+  slider.value = 16;
+  sliderVal.textContent = 16;
 });
 
 // Black button functionality
