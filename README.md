@@ -1,2 +1,2 @@
 # Etch-A-Sketch
-Project done during theodinproject.com
+A browser version of Etch-A-Sketch.
