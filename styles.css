@@ -1,0 +1,82 @@
+html {
+  box-sizing: border-box;
+  background-color: #4158d0;
+  background-image: linear-gradient(315deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Courier New", Courier, monospace;
+}
+#title {
+  text-align: center;
+  font-size: 3em;
+  margin: 15px 0;
+}
+
+/* buttons and sliders */
+
+p {
+  display: inline;
+}
+button {
+  padding: 0.5em;
+  border: 1px;
+  border-radius: 4px;
+  box-shadow: 5px 5px;
+  margin: 0px 2em;
+  font-size: 1em;
+}
+#slider > input {
+  background: black;
+}
+
+/* color box */
+.container {
+  width: 650px;
+  height: 658px;
+  margin: 20px 0px;
+  box-shadow: 8px 12px;
+  border: 5px solid white;
+  border-radius: 5px;
+  background-color: white;
+  /* flexbox */
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex: 1;
+}
+.cell {
+  background-color: white;
+  border: 0.5px solid black;
+}
+
+footer {
+  bottom: 0;
+  color: #eaeaea;
+  padding: 0.5rem;
+}
+.footer {
+  font-size: 1rem;
+  text-align: center;
+}
+.footer > a {
+  color: white;
+}
+.footer > a:hover {
+  color: #ff2e63;
+}
