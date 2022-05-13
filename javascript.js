@@ -69,3 +69,4 @@ slider.addEventListener("input", () => {
 });
 
 createGrid(16);
+colorType = "Black";
